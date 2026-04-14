@@ -214,7 +214,7 @@ h3 {
   to { width: var(--width); }
 }
 
-/* Percentages */
+
 .html { --width: 95%; }   
 .css  { --width: 90%; }
 .js   { --width: 50%; }   
@@ -242,4 +242,21 @@ h3 {
   border-left: 4px solid #7a6a5a;
   border-radius: 10px;
   text-align: left;
+}
+.skill p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.skill-date {
+  font-size: 12px;
+  color: #9c8f84;
+  font-weight: 400;
+  background: rgba(214, 198, 184, 0.15);
+  padding: 2px 8px;
+  border-radius: 10px;
+  letter-spacing: 0.5px;
 }
